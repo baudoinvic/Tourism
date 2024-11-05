@@ -117,7 +117,7 @@ span, h2 {
 
 @media screen and (max-width: 480px) {
     .main-image {
-        width: 90%; /* Ensure the main image takes most of the screen width */
+        width: 90%; 
     }
     .about-left{
         justify-content: left;
