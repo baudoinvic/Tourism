@@ -1,10 +1,13 @@
 .video-container {
     position: relative;
-    height: 100vh; /* Full height of the viewport */
+    height: 50vh; /* Full height of the viewport */
     overflow: hidden;
+   
+  
   }
   
   .background-video {
+  
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,7 +15,7 @@
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -1; /* Place video behind content */
+    z-index: -1; 
     transform: translate(-50%, -50%);
   }
   
@@ -31,8 +34,7 @@
     /* padding: 20px; */
     max-width: 90%; /* Limit the width */
     
-    /* Border styles */
-    border: 5px solid #b7904d; /* Border color and thickness */
+    
     
     /* Increase margin for more distance from the video border */
     margin: 20px; /* Adjust as needed for more space */
