@@ -81,16 +81,16 @@ span, h2 {
     }
 
     .main-image {
-        width: 100%; /* Make the main image responsive */
-        max-width: 100%; /* Prevent overflow */
-        margin-bottom: 15px; /* Add space between images and text */
+        width: 100%; 
+        max-width: 100%; 
+        margin-bottom: 15px; 
     }
 
     .overlay-image {
         position: absolute;
         bottom: -20px;
         right: -20px;
-        width: 150px; /* Make the overlay image smaller */
+        width: 150px; 
         max-width: 100%;
     }
 
