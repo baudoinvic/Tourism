@@ -3,14 +3,10 @@
 .headline-home-content {
     background-image: url('https://bloximages.chicago2.vip.townnews.com/dailypost.vu/content/tncms/assets/v3/editorial/c/ed/ceda642e-c64c-5c24-bf0d-6bb5e83c8385/62bf58dd6d5c4.image.jpg?resize=750%2C422');
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
-    height: 115vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* width: 100% !important; */
-    /* padding: 20px; */
     margin: 0 !important;
 }
 .container-home-content{
