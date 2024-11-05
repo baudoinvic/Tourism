@@ -38,7 +38,7 @@
 
 .about-left {
     flex: 1;
-    padding-right: 45px; /* Adjusted from left to right for spacing between text and images */
+    padding-right: 45px; 
 }
 
 .about-right {
@@ -62,7 +62,7 @@ span, h2 {
 /* Media Query for Small Screens (Mobile) */
 @media screen and (max-width: 768px) {
     .about-container {
-        flex-direction: column; /* Stack content vertically on smaller screens */
+        flex-direction: column; 
         padding: 10px;
         margin-left: 0;
         margin-right: 0;
