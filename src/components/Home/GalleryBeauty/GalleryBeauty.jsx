@@ -1,85 +1,78 @@
-import { useState, useEffect, useRef } from 'react';
-import Skeleton from 'react-loading-skeleton';
-import 'react-loading-skeleton/dist/skeleton.css';
-import './GalleryBeauty.css';
+
+
+
+import "./GalleryBeauty.css";
 import { FaUserGroup } from "react-icons/fa6";
 import { MdAccessTimeFilled } from "react-icons/md";
 
-const GalleryBeauty = ({ items }) => {
-    const [isLoading, setIsLoading] = useState(true);
-    const galleryRef = useRef(null);
+const GalleryBeauty = () => {
+  // Sample data for demonstration
+  const items = [
+    {
+      image:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7y8iBrODWpEOYSgx2CXsaGvuLNGKpZY8DxpCIOiabEJRt",
+      location: "Paris, France",
+      price: 1200,
+    },
+    {
+      image:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSCSdYI0swJSFAgg4qkdhuWFYny56rRTFBz18yWE24l7IKlVnS3CFIMQwP1SOgZ",
+      location: "Rome, Italy",
+      price: 950,
+    },
+    {
+      image:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxcaEpnZFd0CWfGVJzU20rMVqL4_2YpKA5HDDRWSGQKXrlxH5PqqpYkgSX5MSL",
+      location: "New York, USA",
+      price: 1500,
+    },
+    {
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr4ueh5pMa4K93bcfqa5rE57As9_hOnPxeAN6ZzEj0rfU6NfnRbCkXep0NR3t9",
+      location: "Tokyo, Japan",
+      price: 1800,
+    },
+  ];
 
-    useEffect(() => {
-        const timer = setTimeout(() => setIsLoading(false), 2000); // Simulate image loading
-        return () => clearTimeout(timer);
-    }, []);
-
-    // Auto-scroll logic
-    useEffect(() => {
-        const scrollInterval = setInterval(() => {
-            if (galleryRef.current) {
-                galleryRef.current.scrollBy({
-                    left: 300, // Amount to scroll
-                    behavior: 'smooth', // Smooth scrolling effect
-                });
-
-                // Check if we've reached the end, reset scroll
-                if (
-                    galleryRef.current.scrollLeft + galleryRef.current.clientWidth >=
-                    galleryRef.current.scrollWidth
-                ) {
-                    galleryRef.current.scrollTo({ left: 0, behavior: 'smooth' });
-                }
-            }
-        }, 3000); // Every 3 seconds, it scrolls
-
-        return () => clearInterval(scrollInterval); // Clean up interval on component unmount
-    }, []);
-
-    return (
-        <div className="gallery-beauty" ref={galleryRef}>
-            {items.map((item, index) => (
-                <div className="gallery-item-beauty" key={index}>
-                    {isLoading ? (
-                        <Skeleton height={200} width={300} />
-                    ) : (
-                        <img src={item.image} alt="gallery-beauty" className="gallery-image" />
-                    )}
-                    <div className="content-beauty">
-                        <span className="location-beauty">{isLoading ? <Skeleton width={100} /> : item.location}</span>
-                        <h2>Holiday Planners is a World Leading Online Tour Booking Platform</h2>
-                        <p className="description">
-                            {isLoading ? (
-                                <Skeleton width={200} />
-                            ) : (
-                                "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia..."
-                            )}
-                        </p>
-                        <div className="details-beauty">
-                        <MdAccessTimeFilled className='icons'/>
-                            <div className="duration">
-                                <span>Duration</span>
-                                <p>{isLoading ? <Skeleton width={80} /> : "7 days 8 hours"}</p>
-                            </div>
-                            <FaUserGroup className='icons'/>
-                            <div className="group-size">
-                            
-                                <span>Group Size</span>
-                                <p>{isLoading ? <Skeleton width={80} /> : "50+ People"}</p>
-                            </div>
-                        </div>
-                        <div className="price-button-container-beauty">
-                        <p className="price-beauty">{isLoading ? <Skeleton width={60} /> : `$${item.price}`}</p>
-                        {/* <button className="book-now-beauty">BOOK NOW</button> */}
-                        <button className="book-now-beauty">BOOK NOW</button>
-
-                        </div>
-                        
-                    </div>
-                </div>
-            ))}
+  return (
+    <div className="gallery-beauty">
+      {items.map((item, index) => (
+        <div className="gallery-item-beauty" key={index}>
+          <img
+            src={item.image}
+            alt="gallery-beauty"
+            className="gallery-image"
+          />
+          <div className="content-beauty">
+            <span className="location-beauty">{item.location}</span>
+            <h2>
+              Holiday Planners is a World Leading Online Tour Booking Platform
+            </h2>
+            <p className="description">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia...
+            </p>
+            <div className="details-beauty">
+              <MdAccessTimeFilled className="icons" />
+              <div className="duration">
+                <span>Duration</span>
+                <p>7 days 8 hours</p>
+              </div>
+              <FaUserGroup className="icons" />
+              <div className="group-size">
+                <span>Group Size</span>
+                <p>50+ People</p>
+              </div>
+            </div>
+            <div className="price-button-container-beauty">
+              <p className="price-beauty">${item.price}</p>
+              <button className="book-now-beauty">BOOK NOW</button>
+            </div>
+          </div>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default GalleryBeauty;
