@@ -95,26 +95,26 @@ span, h2 {
     }
 
     h1 {
-        font-size: 1.5rem; /* Reduce font size on smaller screens */
+        font-size: 1.5rem; 
     }
 
     h2 {
-        font-size: 1rem; /* Reduce font size for smaller headings */
+        font-size: 1rem;
     }
 
     p {
-        font-size: 0.875rem; /* Adjust paragraph font size */
+        font-size: 0.875rem;
     }
 
     .travel-images-section {
-        width: 100%; /* Ensure the images section takes full width */
-        text-align: left; /* Center the images on small screens */
+        width: 100%; 
+        text-align: left; 
         padding: 0;
         
     }
 }
 
-/* Media Query for Extra Small Screens (Very Mobile Devices) */
+
 @media screen and (max-width: 480px) {
     .main-image {
         width: 90%; /* Ensure the main image takes most of the screen width */
