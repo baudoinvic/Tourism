@@ -2,7 +2,13 @@
 .travel-images-section {
     position: relative;
     display: inline-block;
-    margin: 20px; /* Adjust as needed */
+    margin: 40px; 
+}
+.about-left{
+    margin-left: 20px;
+}
+.about-container{
+    margin-top: 10%;
 }
 
 .main-image {
