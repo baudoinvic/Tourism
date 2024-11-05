@@ -1,4 +1,4 @@
-/* General styles */
+
 .travel-images-section {
     position: relative;
     display: inline-block;
@@ -12,9 +12,9 @@
 }
 
 .main-image {
-    width: 500px; /* Adjust main image size */
-    border: 3px solid #b7904d; /* Border color similar to reference */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    width: 500px; 
+    border: 3px solid #b7904d; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .overlay-image {
