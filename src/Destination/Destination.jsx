@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import Footer from '../components/Footer/Footer'
 import NavBar from '../components/NavBar'
 import DestinationPicture from './DestinationPicture/DestinationPicture'
