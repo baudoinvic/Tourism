@@ -74,7 +74,7 @@
     }
 
     .small-text br {
-        display: none; /* Remove line breaks on mobile for better text flow */
+        display: none; 
     }
 }
 
