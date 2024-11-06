@@ -4,14 +4,14 @@
     background-color: #333;
     color: #fff;
     padding: 20px;
-    position: relative; /* Added for the line */
+    position: relative; 
     
 }
 
 .footer-column {
     flex: 1;
     margin: 0 20px;
-    /* justify-content: flex-start; */
+    
 }
 
 .footer-column h3 {
@@ -23,14 +23,14 @@
 }
 
 .footer-column .line h3::after {
-    content: ''; /* Create a pseudo-element */
+    content: ''; 
     display: block; /* Make it a block element */
     width: 100%; /* Full width */
-    height: 1px; /* Thickness of the line */
-    background-color: white; /* Color of the line */
-    position: absolute; /* Position it absolutely */
-    left: 0; /* Align to the left */
-    bottom: 0; /* Align to the bottom of the heading */
+    height: 1px; 
+    background-color: white; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
 }
 
 .newsletter-form {

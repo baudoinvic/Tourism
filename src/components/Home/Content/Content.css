@@ -78,7 +78,7 @@
     }
 }
 
-/* For very small devices */
+
 @media screen and (max-width: 480px) {
     .headline-home-content {
         height: 70vh;
