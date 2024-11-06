@@ -86,18 +86,18 @@
     width: 3px; 
     height: 3px; 
     background-color: white; 
-    position: absolute; /* Position it absolutely */
-    left: 0; /* Align to the left */
-    top: 50%; /* Center it vertically */
-    transform: translateY(-50%); /* Adjust for vertical centering */
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
 }
 
 
-/* Add this to your existing CSS */
+
 .footer-column p {
     position: relative;
-    padding-left: 20px; /* Space for the vertical line */
-    margin-bottom: 10px; /* Add some spacing between paragraphs */
+    padding-left: 20px; 
+    margin-bottom: 10px; 
 }
 
 .footer-column  p::before {
