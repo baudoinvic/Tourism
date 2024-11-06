@@ -10,7 +10,6 @@
     margin: 0 !important;
 }
 .container-home-content{
-    /* padding: 0px !important; */
     margin: -60px !important;
 }
 
@@ -42,12 +41,12 @@
     justify-content: center;
 }
 
-/* Media Queries for Mobile Responsiveness */
+
 @media screen and (max-width: 768px) {
     .headline-home-content {
         background-position: top center;
         padding: 10px;
-        height: 80vh; /* Slightly shorter on mobile */
+        height: 80vh;
     }
 
     .ultra-regular {

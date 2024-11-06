@@ -70,14 +70,14 @@ span, h2 {
     }
 
     .about-left {
-        padding-right: 0; /* Remove right padding on small screens */
-        margin-bottom: 20px; /* Add margin below the text section */
+        padding-right: 0; 
+        margin-bottom: 20px; 
         justify-content: flex-start;
     }
 
     .about-right {
         flex: 1;
-        display: block; /* Ensure it is displayed as block, stacked below the text */
+        display: block; 
     }
 
     .main-image {
@@ -123,16 +123,16 @@ span, h2 {
     }
 
     .overlay-image {
-        width: 120px; /* Adjust size for very small screens */
-        right: -10px; /* Adjust overlay image position */
+        width: 120px; 
+        right: -10px; 
     }
 
     h1 {
-        font-size: 1.3rem; /* Reduce font size further for extra small screens */
+        font-size: 1.3rem; 
     }
 
     h2 {
-        font-size: 0.9rem; /* Adjust heading size */
+        font-size: 0.9rem; 
     }
 
     p {
