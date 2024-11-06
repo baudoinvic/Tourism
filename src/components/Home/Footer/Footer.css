@@ -81,11 +81,11 @@
 }
 
 .square-list li::before {
-    content: ''; /* Empty content for the square */
-    display: inline-block; /* Make it inline-block to set width and height */
-    width: 3px; /* Width of the square */
-    height: 3px; /* Height of the square */
-    background-color: white; /* Color of the square */
+    content: ''; 
+    display: inline-block; 
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
     position: absolute; /* Position it absolutely */
     left: 0; /* Align to the left */
     top: 50%; /* Center it vertically */
