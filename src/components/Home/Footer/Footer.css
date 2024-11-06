@@ -131,16 +131,16 @@
     height: 2px; 
     background-color: white; /* Color of the line */
     position: absolute;
-    top: 96%; /* Position it in the middle */
+    top: 96%; 
     left: 20;
     transform: translateY(-50%);
     
 }
 .social-icons-footer {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: flex-start; /* Align icons to the left */
-    gap: 15px; /* Space between the icons */
-    margin-top: 10px; /* Optional: space above the icons */
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 15px; 
+    margin-top: 10px; 
 }
 
 
