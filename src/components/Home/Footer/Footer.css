@@ -113,10 +113,10 @@
 }
 
 .footer-images {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: left; /* Center the images */
-    gap: 10px; /* Space between the images */
-    margin-top: 10px; /* Space above the images */
+    display: flex; 
+    justify-content: left; 
+    gap: 10px; 
+    margin-top: 10px; 
   }
   
   .footer-image {
