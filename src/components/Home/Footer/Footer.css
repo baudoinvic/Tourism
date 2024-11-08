@@ -103,9 +103,9 @@
 .footer-column  p::before {
     content: '';
     display: inline-block;
-    width: 2px; /* Width of the vertical line */
-    height: 40px; /* Height of the vertical line */
-    background-color: #b7904d; /* Color of the line */
+    width: 2px; 
+    height: 40px;
+    background-color: #b7904d; 
     position: absolute;
     left: 0;
     top: 50%;
