@@ -120,8 +120,8 @@
   }
   
   .footer-image {
-    width: 50px; /* Set a small width */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; 
+    height: auto; 
   }
 
   .footer::before {
@@ -129,7 +129,7 @@
     display: block;
     width: 90%;
     height: 2px; 
-    background-color: white; /* Color of the line */
+    background-color: white; 
     position: absolute;
     top: 96%; 
     left: 20;
@@ -149,8 +149,8 @@
 
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Stack columns vertically */
-        align-items: center; /* Center the footer content */
+        flex-direction: column; 
+        align-items: center; 
     }
     ul{
         text-align: left;
