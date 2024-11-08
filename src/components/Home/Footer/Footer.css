@@ -145,7 +145,6 @@
 
 
 
-/* Existing styles... */
 
 @media (max-width: 768px) {
     .footer {
@@ -163,9 +162,9 @@
     }
 
     .footer-column:nth-child(3) {
-        text-align: left; /* Align the third column's text to the left */
-        margin: 0; /* Remove margin for the third column */
-        width: 100%; /* Ensure it takes full width */
+        text-align: left; 
+        margin: 0; 
+        width: 100%; 
     }
 }
 
