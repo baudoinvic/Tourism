@@ -1,7 +1,6 @@
 .features-container {
   display: flex;
   justify-content: space-around;
-  /* background: linear-gradient(to bottom, #b7904d, #3a2a1e); */
   padding: 20px;
   color: white;
   margin-top: 60px;
