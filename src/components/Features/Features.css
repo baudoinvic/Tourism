@@ -41,13 +41,13 @@ h3 {
 @media (max-width: 600px) {
   .features-container {
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align items */
+    align-items: center; 
   }
 
   .feature-item {
-    width: 90%; /* Take full width on mobile */
-    height: auto; /* Adjust height automatically */
-    margin-bottom: 20px; /* Space between each feature box */
+    width: 90%; 
+    height: auto; 
+    margin-bottom: 20px; 
   }
 
   .feature-icon {
