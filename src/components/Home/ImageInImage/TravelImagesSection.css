@@ -12,10 +12,10 @@
   
   .overlay-image {
     position: absolute;
-    bottom: -30px; /* Adjust vertical positioning */
-    right: -55px; /* Adjust horizontal positioning */
-    width: 200px; /* Adjust overlay image size */
-    border: 3px solid #b7904d; /* Same border color as main image */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    bottom: -30px;
+    right: -55px; 
+    width: 200px; 
+    border: 3px solid #b7904d; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
