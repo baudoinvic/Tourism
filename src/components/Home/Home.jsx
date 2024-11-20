@@ -7,8 +7,6 @@ import Gallery from './Gallery/Gallery';
 import GalleryBeauty from './GalleryBeauty/GalleryBeauty';
 import Test from './test/Test';
 import './Home.css';
-//import TravelImagesSection from './ImageInImage/TravelImagesSection';
-
 const Home = () => {
   const items = [
     {
