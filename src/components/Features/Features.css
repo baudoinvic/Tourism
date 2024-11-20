@@ -12,11 +12,11 @@
   height: 200px; 
   display: flex; 
   flex-direction: column; 
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  border: 1px solid #fff; /* Optional: add border for visibility */
-  /* border-radius: 10px; Optional: round corners */
-  padding: 10px; /* Optional: add some padding */
+  justify-content: center; 
+  align-items: center; 
+  border: 1px solid #fff; 
+  
+  padding: 10px; 
   border-color:#b7904d;
 }
 
