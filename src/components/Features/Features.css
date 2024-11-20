@@ -51,14 +51,14 @@ h3 {
   }
 
   .feature-icon {
-    font-size: 40px; /* Smaller icon size */
+    font-size: 40px; 
   }
 
   h3 {
-    font-size: 16px; /* Smaller heading size */
+    font-size: 16px; 
   }
 
   .feature-item p {
-    font-size: 12px; /* Smaller paragraph size */
+    font-size: 12px; 
   }
 }
