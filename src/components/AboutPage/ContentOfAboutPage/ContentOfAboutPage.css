@@ -23,19 +23,19 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   padding: 10px;
   margin: 10px 0;
-  text-align: center; /* Ensure text is centered */
+  text-align: center; 
 }
 
-/* Media Query for Tablet & Small Screens */
+
 @media screen and (max-width: 768px) {
   .headline-about {
-    height: 80vh; /* Reduce height for smaller screens */
-    margin: 0; /* Remove any negative margin */
+    height: 80vh; 
+    margin: 0;
     
   }
 
   .ultra-regular-about {
-    font-size: 1.5rem; /* Adjust font size */
+    font-size: 1.5rem; 
     padding: 15px;
     margin: 20px 0;
     line-height: 1.4; 
