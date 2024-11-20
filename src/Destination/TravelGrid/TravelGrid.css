@@ -73,14 +73,14 @@
 
 @media (max-width: 600px) {
   .grid {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
+    grid-template-columns: 1fr; 
   }
 
   .cardWide {
-    grid-column: span 1; /* Reset wide card to span one column */
+    grid-column: span 1; 
   }
 
   .cardTall {
-    grid-row: span 1; /* Reset tall card to span one row */
+    grid-row: span 1;
   }
 }
