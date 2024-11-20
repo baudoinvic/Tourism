@@ -38,14 +38,14 @@
     font-size: 1.5rem; /* Adjust font size */
     padding: 15px;
     margin: 20px 0;
-    line-height: 1.4; /* Adjust line height for better readability */
+    line-height: 1.4; 
   }
 }
 
-/* Media Query for Very Small Screens (e.g., Mobile Portrait) */
+
 @media screen and (max-width: 480px) {
   .headline-about {
-    height: 70vh; /* Further reduce height on very small screens */
+    height: 70vh; 
   }
 
   .ultra-regular-about {
