@@ -140,16 +140,16 @@
 
     .newsletter-form input,
     .newsletter-form button {
-        width: 80%; /* Set input and button to 80% of column width */
-        margin: 5px 0; /* Add spacing between input and button */
+        width: 80%; 
+        margin: 5px 0; 
     }
 
     .footer-images {
-        justify-content: center; /* Center images in the footer */
+        justify-content: center; 
     }
 
     .footer-image {
-        width: 40px; /* Adjust image size for smaller screens */
+        width: 40px; 
     }
 }
 
