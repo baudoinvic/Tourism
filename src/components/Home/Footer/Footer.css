@@ -5,13 +5,11 @@
     color: #fff;
     padding: 20px;
     position: relative; 
-    
 }
 
 .footer-column {
     flex: 1;
-    margin: 0 20px;
-    
+    margin: 0 20px; 
 }
 
 .footer-column h3 {
