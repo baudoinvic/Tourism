@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-/* General Styles for the Headline Section */
+
 .headline-about {
   background-image: url('https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.jpg?s=612x612&w=0&k=20&c=Oc2HZUPVJRXFsjTwKVgWY_ddWrKeQUG0KCyKUGef-ig=');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: -60px !important; /* Adjust this for desired top margin */
+  margin: -60px !important; 
 }
 
 .ultra-regular-about {
@@ -49,9 +49,9 @@
   }
 
   .ultra-regular-about {
-    font-size: 1.2rem; /* Adjust font size further for very small screens */
+    font-size: 1.2rem; 
     padding: 10px;
     margin: 15px 0;
-    line-height: 1.3; /* Adjust line height for readability */
+    line-height: 1.3; 
   }
 }
