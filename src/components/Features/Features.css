@@ -8,10 +8,10 @@
 
 .feature-item {
   text-align: center;
-  width: 200px; /* Fixed width */
-  height: 200px; /* Fixed height to make it a square */
-  display: flex; /* Use flexbox for centering */
-  flex-direction: column; /* Stack items vertically */
+  width: 200px; 
+  height: 200px; 
+  display: flex; 
+  flex-direction: column; 
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
   border: 1px solid #fff; /* Optional: add border for visibility */
