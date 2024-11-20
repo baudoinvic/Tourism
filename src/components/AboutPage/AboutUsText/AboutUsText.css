@@ -136,6 +136,6 @@ span, h2 {
     }
 
     p {
-        font-size: 0.75rem; /* Reduce paragraph size for better readability */
+        font-size: 0.75rem; 
     }
 }
